@@ -76,7 +76,7 @@ def read():
     users = readdb()
     print(users)
     html_content = """<button onclick="window.location.href='/index';">Обратно</button><br>
-<table>
+<table border="1">
     <tr>
         <th>Id</th>
         <th>Имя</th>
